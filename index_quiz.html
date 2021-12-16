@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <title>ON.THE.WAY</title>
+</head>
+
+<body>
+  <header>
+
+    <!-- MENU -->
+
+    <div id="cabecalho">
+      <nav>
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span> <span></span> <span></span>
+          <ul id="menu">
+            <li><a href="index_quiz.html"> QUIZ </a></li>
+            <li><a href="index_diario.html"> PERSONAL SPACE </a></li>
+            <li><a href=""> GAME </a></li>
+            <li><a href="index_about.html"> ABOUT </a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="cabecas">
+        <h5> QUIZ </h5>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <!-- INICIO -->
+    <!-- QUIZ -->
+
+    <p class="pergunta" id="pergunta1">  How are you feeling today? </p>
+
+    <section id='section0'>
+      <div id='mouseCircle' class='div'></div>
+      <select class="selectColor" onchange="changeColor(this)">
+        <optgroup>
+          <option value="#F50707">Brave</option>
+          <option value="#0DF0D6">Surprised</option>
+          <option value="#315C1D">Bored</option>
+          <option value="#21E50F">Satisfied</option>
+          <option value="#503D4E">Nervous</option>
+        </optgroup>
+      </select>
+    </section>
+
+      <p class="pergunta" id="pergunta2"> How are you feeling today? </p>
+
+      <section id='section1'>
+        <div id='mouseCircle1' class='div1'></div>
+        <select class="selectColor1" onchange="changeColor1(this)">
+          <optgroup>
+            <option value="#F50707">Brave</option>
+            <option value="#0DF0D6">Surprised</option>
+            <option value="#315C1D">Bored</option>
+            <option value="#21E50F">Satisfied</option>
+            <option value="#503D4E">Nervous</option>
+          </optgroup>
+        </select>
+      </section>
+
+
+        <p class="pergunta" id="pergunta3"> How are you feeling today? </p>
+
+        <section id='section2'>
+          <div id='mouseCircle2' class='div2'></div>
+          <select class="selectColor2" onchange="changeColor2(this)">
+            <optgroup>
+              <option value="#F50707">Brave</option>
+              <option value="#0DF0D6">Surprised</option>
+              <option value="#315C1D">Bored</option>
+              <option value="#21E50F">Satisfied</option>
+              <option value="#503D4E">Nervous</option>
+            </optgroup>
+          </select>
+        </section>
+
+
+  </main>
+  <script src='main.js'></script>
+</body>
+
+</html>
